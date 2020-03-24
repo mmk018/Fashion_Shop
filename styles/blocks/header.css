@@ -1,0 +1,8 @@
+/* Header Topbar */
+.shopping {
+    border: 1px solid black;
+    border-radius: 50%;
+}
+.header .shopping>a {
+    color: black;
+}
