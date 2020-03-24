@@ -142,8 +142,15 @@ font-family: 'Open Sans', sans-serif; */
     opacity: 1.5;
 }
 
-
-
+.btn-wide {
+    padding: 15px 40px;
+    margin-top: 40px;
+    width: 170px;
+    
+}
+.tar {
+    text-align: right;
+}
 
 
 /*  */
@@ -333,6 +340,7 @@ font-family: 'Open Sans', sans-serif; */
 }
 .product-box {
     width: 285px;
+    margin: 0 auto;
     
 }
 .product-box img {
@@ -371,4 +379,89 @@ font-family: 'Open Sans', sans-serif; */
 .stars span {
     color: #98968e;
 }
+/* Section Products ready mobile */
 
+/* Section Card */
+.card-wrapper {
+    /* background-color: rgb(255, 240, 240); */
+    background: url("../img/categori/card.png") center center no-repeat;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.card-wrapper h2 {
+    font-size: 20px;
+}
+.card-wrapper p {
+    line-height: 24px;
+}
+.card .btn-blue-big {
+    background-color: black;
+    color:#fff;
+    padding: 15px 40px;
+    margin-top: 40px;
+    width: 170px;
+}
+/* Section card end */
+
+/* Section Month */
+.month {
+    margin: 50px 0;
+}
+
+.month .default {
+    font-size: 22px;
+}
+
+.month-item {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-top: 30px;
+}
+.month-item p {
+    font-size: 22px;
+    padding: 20px;
+    margin: 0;
+    text-align: right;
+    }
+
+.month-item .btn-wide {
+    width: 145px;
+    margin-right: 16px;
+}   
+/* Section News */
+.news .card-wrapper {
+    background: url("../img/collection/latest-offer.png") no-repeat;
+    padding: 80px 10px;
+} 
+.news .card-wrapper .h2 {
+    font-size: 27px;
+}
+.news .card-wrapper p {
+    font-size: 24px;
+}
+.email {
+    width: 280px;
+    margin: 0 auto;
+    padding: 15px 15px;
+    height: 30px;
+    border-radius: 40px;
+    border: none;
+
+}
+.email-form {
+    position: relative;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.email-button {
+    font-size: 16px;
+    padding: 20px 10px;
+    border-radius: 40px;
+    position: absolute;
+    right:0px;
+    /* Section news ready */
+
+}
