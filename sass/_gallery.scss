@@ -1,0 +1,16 @@
+.gallery {
+    &-img {
+        width: 50%;
+    }
+    
+}
+@media screen and (min-width:1025px) {
+    .gallery {
+        .container90 {
+            flex-wrap: nowrap;
+        }
+        &-img {
+            width: 20%;
+        }
+    }
+}

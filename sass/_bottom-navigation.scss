@@ -1,0 +1,60 @@
+.bottom-navigation {
+    margin: 100px 0;
+
+}
+.logo-descr {
+    max-width: 370px;
+    &-p {
+        margin-top: 40px;
+        font-size: 20px;
+        color: grey;
+    }
+    &-list {
+        list-style-type:none;
+        /* margin: 100px 0; */
+        padding: 0;
+        padding-right: 10px;
+
+        .page-navigation-link a {
+            padding: 0;
+        }
+    }
+    &-list li:first-child  {
+        font-size: 24px;
+        padding: 0px;
+        margin: 0;
+        color: black;
+        padding: 0;
+        margin: 0;
+        text-align: left;
+    }
+    &-list li:first-child a {
+        color:black;
+        cursor: default;
+        
+
+    } 
+    &-list li:first-child {
+        padding: 20px 0px; 
+        
+
+    } 
+    /* &-list li:nth-child(2) {
+        padding-right:180px; 
+        
+
+    }  */
+    &-item a {
+        padding: 0;
+        padding-right: 50px;
+    }
+    &-item a:hover {
+        padding: 0;
+    }
+    &-item  {
+        padding: 10px 0px;
+    }
+    
+    
+    
+}
