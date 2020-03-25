@@ -1,0 +1,32 @@
+/* Section News */
+.news .card-wrapper {
+    background: url("../img/collection/latest-offer.png") no-repeat;
+    padding: 80px 10px;
+} 
+.news .card-wrapper .h2 {
+    font-size: 27px;
+}
+.news .card-wrapper p {
+    font-size: 24px;
+}
+.email {
+    width: 230px;
+    margin: 0 auto;
+    padding: 15px 15px;
+    height: 30px;
+    border-radius: 40px;
+    border: none;
+
+}
+.email-form {
+    position: relative;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.email-button {
+    font-size: 16px;
+    padding: 20px 10px;
+    border-radius: 40px;
+    position: absolute;
+    right:0px;
+}

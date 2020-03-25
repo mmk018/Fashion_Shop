@@ -1,0 +1,49 @@
+/* Section Card */
+.card .container90 {
+        background: url("../img/categori/card.png") center center no-repeat;
+        position: relative;
+    }
+.card_center_wrapper {
+    position: relative;
+
+
+}    
+
+.card-wrapper {
+    /* background-color: rgb(255, 240, 240); */
+    /* background: url("../img/categori/card.png") center center no-repeat; */
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.card-wrapper h2 {
+    font-size: 20px;
+}
+.card-person {
+    display:block;
+    position: absolute;
+    bottom:0;
+    left: -300px;
+    /* height: 60vh;
+    width: 10%; */
+}
+.card-wrapper p {
+    line-height: 24px;
+}
+.card .btn-blue-big {
+    background-color: black;
+    color:#fff;
+    padding: 15px 40px;
+    margin-top: 40px;
+    width: 170px;
+}
+.shirt {
+    display: block;
+    position: absolute;
+    right: 120px;
+    bottom: 120px;
+    width: 170px;
+    height: 150px;
+}
+/* Section card end */

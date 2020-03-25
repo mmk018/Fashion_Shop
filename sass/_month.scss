@@ -1,0 +1,26 @@
+/* Section Month */
+.month {
+    margin: 50px 0;
+}
+
+.month .default {
+    font-size: 22px;
+}
+
+.month-item {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-top: 30px;
+}
+.month-item p {
+    font-size: 22px;
+    padding: 20px;
+    margin: 0;
+    text-align: right;
+    }
+
+.month-item .btn-wide {
+    width: 145px;
+    margin-right: 16px;
+}   

@@ -1,0 +1,73 @@
+/* Section Category */
+.category-box-blue {
+    background: url("../img/categori/cat1.jpg") center center/cover no-repeat;
+    width: 100%;
+    height: 180px;
+    border-radius: 10px;
+    position: relative;
+    margin: 20px 0;
+
+}
+.best-new-deals {
+    padding: 12px 10px;
+    background-color:#ffd900;
+    width: 100px;
+    border-radius: 20px;
+    font-size: 15px;
+    position: absolute;
+    right: 10px;
+    top: 60px;
+    
+}
+.blue-shadow {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 20px;
+    color: #2e63e9;
+    padding: 20px 0;
+    margin: 0;
+    font-style: italic;
+    text-shadow: -1px -1px hsl(0, 0%, 98%);
+    position: absolute;
+    right: 10px;
+    top: 85px;
+
+}
+.category-tittle {
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    font-size: 23px;
+    
+}
+.box-pink {
+    background: url("../img/categori/cat2.jpg") center center/cover no-repeat;
+}
+.box-pink .descr {
+    position: absolute;
+    right: 20px;
+    top: 90px;
+    font-size: 16px;
+
+}
+.box-pink .category-tittle {
+    position: absolute;
+    right: 10px;
+    top: 60px;
+    font-size: 22px;
+
+}
+.box-pink .blue-shadow {
+    position: absolute;
+    right: 30px;
+    top: 40px;
+    font-size: 20px;
+
+}
+.box-3 {
+    background: url("../img/categori/cat3.jpg") center center/cover no-repeat;
+}
+.box-3 .category-tittle {
+    right: 15px;
+}
+
+/* Section Category End */
