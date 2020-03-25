@@ -21,7 +21,7 @@
     justify-content: space-around;
 }
 .alitend {
-    align-self: flex-end;
+    align-items: flex-end;
 }
 
 
@@ -55,6 +55,9 @@
 
 .column {
     flex-direction: column;
+}
+.row {
+    flex-direction: row;
 }
 .w50 {
     width: 50%;

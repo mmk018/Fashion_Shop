@@ -2,6 +2,24 @@
 .news .card-wrapper {
     background: url("../img/collection/latest-offer.png") no-repeat;
     padding: 80px 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+    align-items: center;
+
+    &-offer {
+        position: relative;
+        max-width: 400px;
+        & img {
+            position: absolute;
+            bottom:-90px;
+            left:-400px;
+        }
+
+    }
 } 
 .news .card-wrapper .h2 {
     font-size: 27px;
@@ -20,8 +38,10 @@
 }
 .email-form {
     position: relative;
-    margin: 0 auto;
+    
     margin-top: 50px;
+    max-width: 400px;
+    margin: 0 30px;
 }
 .email-button {
     font-size: 16px;

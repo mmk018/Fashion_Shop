@@ -1,7 +1,21 @@
 /* Section Month */
 .month {
     margin: 50px 0;
+    &-best {
+        max-width: 400px;
+    }
+    &-person {
+        position: relative;
+        margin: 0 50px;
+        &-text {
+            color: transparent;
+            -webkit-text-stroke-width: 1px;
+            -webkit-text-stroke-color: black;
+            font-size: 120px;
+        }
+    }
 }
+
 
 .month .default {
     font-size: 22px;

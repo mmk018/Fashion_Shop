@@ -1,0 +1,24 @@
+.payment {
+    margin: 50px 0;
+    
+    &-box{
+        max-width: 370px;
+        margin: 50px 10px;
+
+
+        &-header {
+            font-size: 28px;
+            font-weight: 500;
+        }
+        &-descr {
+            font-size: 22px;
+            font-weight: 400;
+        }
+    }
+    .container90 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+}
