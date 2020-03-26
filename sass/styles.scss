@@ -1,5 +1,7 @@
 
-
+*:focus {
+    outline: none;
+}
 /*  */
 @import "myLibrary";
 @import "header";
@@ -12,6 +14,9 @@
 @import "payment";
 @import "gallery";
 @import "bottom-navigation";
+@import "copyright";
+@import "social";
+@import "shop-category";
 
 
 
