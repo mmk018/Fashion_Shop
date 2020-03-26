@@ -225,6 +225,7 @@
     .bottom-navigation .container90 {
         flex-wrap: nowrap;
         justify-content: space-between;
+        max-width: 1200px;
     }
     .logo-descr {
         width: 250px;
@@ -236,7 +237,14 @@
     .footer .container90 {
         display: flex;
         align-items: center;
+        max-width: 1200px;
+        justify-content: space-between;
     }
+    .copyright .logo-descr-p {
+        max-width: 100%;
+    }
+        
+        
        
 
        
