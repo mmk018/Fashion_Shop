@@ -30,14 +30,14 @@
     }
 } */
 /* XS */
-@media screen and (max-width:525px) {
+@media screen and (max-width:416px) {
     .xs-hidden {
         display:none;
     }
 }
 
 /* Tablet */
-@media screen and (max-width:960px) and (min-width:526px) {
+@media screen and (max-width:960px) and (min-width:416px) {
     .md-hidden {
         display:none;
     }

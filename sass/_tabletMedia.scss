@@ -42,7 +42,69 @@
         font-size: 20px;
 
     }
+    /* Section Category finish */
+    /* Section Products  */
+    .top-bar  {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid #80808035;
+    }
+    .products .container90 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    /* Section Card */
+    .card_center_wrapper {
         
+        width: 100%;
+    }
+    .card-wrapper h2 {
+        font-size: 45px;
+    }
+    .card-wrapper {
+        padding: 30px 20px;
+    }
+    .card-wrapper p {
+        font-size: 21px;
+    }
+    .shirt {
+        right: 40px;
+        bottom: 40px;
+    }
+    /* Section Month */
+    .month .container90 {
+        display: flex;
+    } 
+    /* Section News */
+    .email {
+        width: 280px;
+    }
+    .email-button {
+        padding: 20px 40px;
+    }
+    /* Payment section */
+    .payment-box {
+        max-width: 300px;
+    }
+    /* Section Bottom Navigation */
+    .bottom-navigation .container90 {
+        flex-wrap: nowrap;
+        justify-content: space-between;
+    }
+    .logo-descr {
+        width: 250px;
+        padding-top: 40px;
+        
+        
+    }
+    /* Footer section */
+    .footer .container90 {
+        display: flex;
+        align-items: center;
+    }
+       
+
        
 }
-/* transform: scale(2); */
