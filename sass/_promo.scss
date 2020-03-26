@@ -4,12 +4,28 @@
     background: url("../img/hero/h1_hero.jpg") center center/cover no-repeat;
 }
 .promo_cat {
-    max-width: 50%;
+    
     height: auto;
+    position: relative;
+    min-width: 300px;
+    min-height: 300px;
 }
 .promo_cat img {
+    /* max-width: 100%;
+    height: auto; */
+    /* max-width: 100%;
+    height: auto;
+    position: absolute;
+    bottom: -12px; */
+    /* position: absolute; */
     max-width: 100%;
     height: auto;
+    position: absolute;
+    bottom: -2px;
+    left: -12vw;
+    width: 50vw;
+    height: 100%;
+    
 }
 .italic-blue {
     font-family: 'Kaushan Script', cursive;
